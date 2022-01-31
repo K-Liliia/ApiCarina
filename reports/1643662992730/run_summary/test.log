@@ -1,0 +1,2 @@
+[2022-01-31 11:03:16] [IMessager.java] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2022-01-31 11:03:16] [IMessager.java] [1] [INFO] RESULT #1: TEST [carina-api - testCreateComment] FAIL [log=file:///Users/liliiakozachuk/carina-api/./reports/1643662992730/b4e9413f-75e0-4ee6-98be-610325a59553/test.log]

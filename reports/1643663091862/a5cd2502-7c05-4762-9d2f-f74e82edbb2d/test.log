@@ -1,0 +1,58 @@
+[2022-01-31 11:04:56] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-01-31 11:04:56] [IMessager.java] [1] [INFO] TEST [carina-api - testCreatePhoto] STARTED at [23:04:56 2022-01-31]
+[2022-01-31 11:04:56] [APITaskLK.java] [1] [INFO] test create a photo
+[2022-01-31 11:04:56] [AbstractApiMethodV2.java] [1] [INFO] Base properties loaded: api/test/photos/photos.properties
+[2022-01-31 11:04:56] [LoggingOutputStream.java] [1] [INFO] Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/photos
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:
+{
+    "albumId": 1,
+    "id": 5001,
+    "title": "bceiflkpijdfkqor",
+    "url": "https://via.placeholder.com/600/51aa97",
+    "thumbnailUrl": "https://via.placeholder.com/150/51aa97"
+}
+HTTP/1.1 201 Created
+Date: Mon, 31 Jan 2022 21:04:56 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 174
+Connection: keep-alive
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 998
+x-ratelimit-reset: 1643663153
+vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+access-control-allow-credentials: true
+cache-control: no-cache
+pragma: no-cache
+expires: -1
+access-control-expose-headers: Location
+location: http://jsonplaceholder.typicode.com/photos/5001
+x-content-type-options: nosniff
+etag: W/"ae-m2MnNItqfhFErw612uN7ulRqqUM"
+via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=vZOaFgyRd3kNpgBeEtRQIwqSg%2BAvKDgsGN9e47VQXOnpva2cP66aukdjvK47i2mhmNQB5xSwChMZGSwCeXOvAi%2F8Mv31anJIxPBTQMwaAfDflJ3uNPN3ibL2yWZPYQo8GndQpMwiWCfcY4r1BcvV"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6d65e52ffa9e7b47-DME
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "albumId": 1,
+    "id": 5001,
+    "title": "bceiflkpijdfkqor",
+    "url": "https://via.placeholder.com/600/51aa97",
+    "thumbnailUrl": "https://via.placeholder.com/150/51aa97"
+}
+
+[2022-01-31 11:04:56] [IMessager.java] [1] [INFO] TEST [carina-api - testCreatePhoto] PASSED at [23:04:56 2022-01-31]

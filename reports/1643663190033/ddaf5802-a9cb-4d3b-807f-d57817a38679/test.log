@@ -1,0 +1,51 @@
+[2022-01-31 11:06:33] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-01-31 11:06:33] [IMessager.java] [1] [INFO] TEST [carina-api - testDeletePost] STARTED at [23:06:33 2022-01-31]
+[2022-01-31 11:06:33] [APITaskLK.java] [1] [INFO] test delete post
+[2022-01-31 11:06:33] [AbstractApiMethodV2.java] [1] [INFO] Base properties loaded: api/test/posts/post.properties
+[2022-01-31 11:06:34] [LoggingOutputStream.java] [1] [INFO] Request method:	DELETE
+Request URI:	https://jsonplaceholder.typicode.com/posts/9
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:
+{
+    "userId": "1",
+    "id": 9,
+    "title": "nolohhgkddilhjbggkhmipjkil",
+    "body": "consectetur animi nesciunt iure dolore\nenim quia ad\nveniam autem ut quam aut nobis\net est aut quod aut provident voluptas autem voluptas"
+}
+HTTP/1.1 200 OK
+Date: Mon, 31 Jan 2022 21:06:34 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2
+Connection: keep-alive
+x-powered-by: Express
+x-ratelimit-limit: 1000
+x-ratelimit-remaining: 998
+x-ratelimit-reset: 1643663214
+vary: Origin, Accept-Encoding
+access-control-allow-credentials: true
+cache-control: no-cache
+pragma: no-cache
+expires: -1
+x-content-type-options: nosniff
+etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=MOOwkmuWhV2r7GFsFLAC0zeOSMb7be9A%2F0x7FiKPRBs2499xt6jr8Ixf83jL7s9jtE%2FKsiyJtQrmX2XOS1U73xn%2BWTxYbZiD1KT%2F8GtUHLUWUkjpL3R7EZ22BQU43MehRpD76fWc0dEYW9sSODxi"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6d65e791caf34979-DME
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    
+}
+
+[2022-01-31 11:06:34] [IMessager.java] [1] [INFO] TEST [carina-api - testDeletePost] PASSED at [23:06:34 2022-01-31]

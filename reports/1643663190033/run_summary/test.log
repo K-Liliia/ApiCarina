@@ -1,0 +1,6 @@
+[2022-01-31 11:06:35] [IMessager.java] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2022-01-31 11:06:35] [IMessager.java] [1] [INFO] RESULT #1: TEST [carina-api - testCreatePhoto] PASS [log=file:///Users/liliiakozachuk/carina-api/./reports/1643663190033/6eed488b-09be-4504-ba74-149fc4456b6d/test.log]
+[2022-01-31 11:06:35] [IMessager.java] [1] [INFO] RESULT #2: TEST [carina-api - testDeletePost] PASS [log=file:///Users/liliiakozachuk/carina-api/./reports/1643663190033/ddaf5802-a9cb-4d3b-807f-d57817a38679/test.log]
+[2022-01-31 11:06:35] [IMessager.java] [1] [INFO] RESULT #3: TEST [carina-api - testGetPost] PASS [log=file:///Users/liliiakozachuk/carina-api/./reports/1643663190033/a3d1ba70-ba4f-4e34-8bd1-1dfd2f5d2e7d/test.log]
+[2022-01-31 11:06:35] [IMessager.java] [1] [INFO] RESULT #4: TEST [carina-api - testGetPosts] PASS [log=file:///Users/liliiakozachuk/carina-api/./reports/1643663190033/b04fd3af-1a01-473c-a3ea-1c3dac814975/test.log]
+[2022-01-31 11:06:35] [IMessager.java] [1] [INFO] RESULT #5: TEST [carina-api - testPutPhoto] FAIL [log=file:///Users/liliiakozachuk/carina-api/./reports/1643663190033/98f6b2ca-5bdb-49e0-a6eb-1998ae0c7b81/test.log]
